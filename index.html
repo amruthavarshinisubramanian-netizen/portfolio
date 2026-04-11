@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amruthavarshini Portfolio</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #0f172a;
+            color: #e2e8f0;
+        }
+
+        .highlight {
+            color: #38bdf8;
+        }
+
+        .card {
+            background-color: #1e293b;
+            border: none;
+            color: #ffffff;   /* ✅ FIX: text visible */
+        }
+
+        .card p {
+            color: #cbd5e1;   /* light grey for readability */
+        }
+
+        .section-title {
+            border-left: 4px solid #38bdf8;
+            padding-left: 10px;
+            margin-bottom: 20px;
+            color: #ffffff;   /* ✅ FIX */
+        }
+
+        footer {
+            background-color: #020617;
+            color: #94a3b8;
+        }
+
+        /* optional improvement */
+        .navbar {
+            background-color: #020617 !important;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-dark">
+    <div class="container">
+        <span class="navbar-brand">My Portfolio</span>
+    </div>
+</nav>
+
+<!-- Hero -->
+<div class="container text-center mt-5">
+    <h1>Hi, I'm <span class="highlight">Amruthavarshini S</span></h1>
+    <p class="lead">Full Stack Developer | Python Developer</p>
+</div>
+
+<!-- About -->
+<div class="container mt-5">
+    <h2 class="section-title">About Me</h2>
+    <p>
+        I am currently pursuing a Bachelor of Computer Applications (2024–2027) at Bishop Heber College, Trichy.
+        I have a strong foundation in Java, Python, C, DBMS, Artificial Intelligence, and Computer Networks.
+        I am skilled in HTML, CSS, JavaScript, React.js, and backend development using Flask.
+        I am passionate about web development and aim to become a Full Stack Developer.
+    </p>
+</div>
+
+<!-- Skills -->
+<div class="container mt-5">
+    <h2 class="section-title">Skills</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>React.js</li>
+                <li>Python, Java, C</li>
+            </ul>
+        </div>
+        <div class="col-md-6">
+            <ul>
+                <li>Flask</li>
+                <li>MySQL</li>
+                <li>GitHub, VS Code</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- Projects -->
+<div class="container mt-5">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="card p-3 mb-3">
+        <h5>Employee Management System</h5>
+        <p>Developed a full-stack web application to manage employee records using Flask and MySQL with CRUD operations.</p>
+    </div>
+
+    <div class="card p-3 mb-3">
+        <h5>To-Do Task Application</h5>
+        <p>Built a task management app to organize daily tasks with add, update, and delete features.</p>
+    </div>
+
+    <div class="card p-3 mb-3">
+        <h5>Personal Portfolio Website</h5>
+        <p>Designed a responsive portfolio using HTML, CSS, and Bootstrap and deployed using GitHub Pages.</p>
+    </div>
+</div>
+
+<!-- Contact -->
+<div class="container mt-5 mb-5">
+    <h2 class="section-title">Contact</h2>
+
+    <p>Email: amruthavarshinisubramanian@gmail.com</p>
+    <p>GitHub: https://github.com/amruthavarshinisubramanian-netizen</p>
+    <p>LinkedIn: https://www.linkedin.com/in/amruthavarshini-s-928703376</p>
+
+    <button class="btn btn-info mt-3" onclick="alert('Message sent successfully!')">
+        Contact Me
+    </button>
+</div>
+
+<!-- Footer -->
+<footer class="text-center p-3">
+    © 2026 Amruthavarshini
+</footer>
+
+</body>
+</html>
