@@ -46,7 +46,7 @@ function App() {
            </a>
            
           <a
-          href="/Amruthavarshini_S.pdf"
+          href="/Amruthavarshini S.pdf"
           download
           className="resume-btn"
           >
